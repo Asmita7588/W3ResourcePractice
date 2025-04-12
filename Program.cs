@@ -50,13 +50,13 @@ namespace LogicalPractice
 
 
 
-           // //Write a C# Sharp program in to count duplicate elements in an array.
+            // //Write a C# Sharp program in to count duplicate elements in an array.
 
-           // int[] arr =  { 10, 20, 30, 40, 70, 30, 70, 10 };
+            // int[] arr =  { 10, 20, 30, 40, 70, 30, 70, 10 };
 
-           //int count=   ArrayProgramPractice.CountDuplicateArrayElement(arr);
+            //int count=   ArrayProgramPractice.CountDuplicateArrayElement(arr);
 
-           // Console.WriteLine("Duplicate array element :" +count);
+            // Console.WriteLine("Duplicate array element :" +count);
 
 
             // Write a C# Sharp program to read the age of a candidate and determine whether it is eligible for casting his/her own vote.
@@ -64,7 +64,8 @@ namespace LogicalPractice
 
             int age = ArrayProgramPractice.CheckEligibleCandidate("2001-11-03");
             Console.WriteLine(age + "age");
-            if (age <= 21) {
+            if (age <= 21)
+            {
                 Console.WriteLine("candidate is eligible");
             }
 
@@ -78,7 +79,20 @@ namespace LogicalPractice
             //copy string another way 
             ArrayProgramPractice.CopyStringProgram();
 
+            //linq retuen number divide by zero
+            LinqExample.ShowThreePartQueryExcutecution();
+
+            LinqExample.FindPositiveNummber();
+
+            LinqExample.DisplayFrequencyOfNumbers();
+
+            LinqExample.DisplayFrequencyOfCharacter();
+
+            LinqExample.FindDayOfWeek();
         }
+
+
+            
 
     }
 }
